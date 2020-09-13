@@ -23,6 +23,7 @@
   "homepage": "https://github.com/nomadbard916/node_api_practice#readme",
   "dependencies": {
     "express": "^4.17.1",
+    "morgan": "^1.10.0",
     "nodemon": "^2.0.4",
     "semistandard": "^14.2.3"
   }
