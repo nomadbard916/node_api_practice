@@ -1,3 +1,7 @@
-exports.getPosts = (req, res) => {
-  res.send('Hello world from node js');
-};
+const express = require('express');
+const router = express.Router();
+const postController = require('../controllers/post');
+
+router.get('/', postController.getPosts);
+
+module.exports = router;
