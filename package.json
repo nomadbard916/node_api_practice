@@ -27,6 +27,7 @@
     "mongoose": "^5.10.5",
     "morgan": "^1.10.0",
     "nodemon": "^2.0.4",
-    "semistandard": "^14.2.3"
+    "semistandard": "^14.2.3",
+    "express-validator": "^5.3.1"
   }
 }
